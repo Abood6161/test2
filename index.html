@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Shop</title>
+    <title>Big Online Store</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +13,9 @@
         }
         h1 {
             text-align: center;
+        }
+        .category {
+            margin: 20px 0;
         }
         .product {
             border: 1px solid #ccc;
@@ -28,34 +31,93 @@
             max-width: 100%;
             height: auto;
         }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
 
-<h1>Online Shop</h1>
+<h1>Big Online Store</h1>
 
-<div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 1">
-    <h2>Product 1</h2>
-    <p>Price: $29.99</p>
+<div class="category">
+    <h2>Electronics</h2>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Smartphone" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <p>Price: $499.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Laptop" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>Price: $899.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Headphones" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>Price: $199.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Smartwatch" alt="Smartwatch">
+            <h3>Smartwatch</h3>
+            <p>Price: $299.99</p>
+        </div>
+    </div>
 </div>
 
-<div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 2">
-    <h2>Product 2</h2>
-    <p>Price: $39.99</p>
+<div class="category">
+    <h2>Home Appliances</h2>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Refrigerator" alt="Refrigerator">
+            <h3>Refrigerator</h3>
+            <p>Price: $799.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Microwave" alt="Microwave">
+            <h3>Microwave</h3>
+            <p>Price: $149.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Washer" alt="Washing Machine">
+            <h3>Washing Machine</h3>
+            <p>Price: $599.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Vacuum" alt="Vacuum Cleaner">
+            <h3>Vacuum Cleaner</h3>
+            <p>Price: $199.99</p>
+        </div>
+    </div>
 </div>
 
-<div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 3">
-    <h2>Product 3</h2>
-    <p>Price: $49.99</p>
-</div>
-
-<div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 4">
-    <h2>Product 4</h2>
-    <p>Price: $59.99</p>
+<div class="category">
+    <h2>Clothing</h2>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=T-Shirt" alt="T-Shirt">
+            <h3>T-Shirt</h3>
+            <p>Price: $19.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Jeans" alt="Jeans">
+            <h3>Jeans</h3>
+            <p>Price: $39.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Jacket" alt="Jacket">
+            <h3>Jacket</h3>
+            <p>Price: $79.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Sneakers" alt="Sneakers">
+            <h3>Sneakers</h3>
+            <p>Price: $49.99</p>
+        </div>
+    </div>
 </div>
 
 </body>
